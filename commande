@@ -1,0 +1,15 @@
+la version de docker : 
+$ docker version 
+
+
+$ docker ps -a         voir tout les container qui existe 
+
+$ docker images        voir les images en local 
+
+$ docker search nom_image       chercher une image
+
+$ docker pull  nom_image:version    telecharger une image 
+
+$ docker rmi nom_image:version     supprimer une image 
+
+$ docker ps                 liste des container actifs 

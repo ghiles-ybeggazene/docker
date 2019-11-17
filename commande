@@ -13,3 +13,9 @@ $ docker pull  nom_image:version    telecharger une image
 $ docker rmi nom_image:version     supprimer une image 
 
 $ docker ps                 liste des container actifs 
+
+$ docker run ubuntu         lancer le conteneur a partir d une image  
+
+$ docker run -ti ubuntu     t pour cree un terminal  i pour se connecter a ce terminal
+
+$ docker run --name=cont01  --hostname=host01 -it ubuntu pour donner des noms aux conteneurs 

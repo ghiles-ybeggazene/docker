@@ -19,3 +19,9 @@ $ docker run ubuntu         lancer le conteneur a partir d une image
 $ docker run -ti ubuntu     t pour cree un terminal  i pour se connecter a ce terminal
 
 $ docker run --name=cont01  --hostname=host01 -it ubuntu pour donner des noms aux conteneurs 
+
+$ docker logs id conteneur    pour voir les logs du conteneur
+
+$ docker stop id conteneur    pour arreter un conteneur 
+
+$ docker kill id conteneur    pour arreter une application si elle ne fonctionne pas

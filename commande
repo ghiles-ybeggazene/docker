@@ -2,7 +2,9 @@ la version de docker :
 $ docker version 
 
 
-$lsb_release -a        voir les infos
+$ lsb_release -a        voir les infos
+
+$  getconf LONG_BIT                       voir si 64 bits ou 32 bits
 
 $ docker ps -a         voir tout les container qui existe 
 

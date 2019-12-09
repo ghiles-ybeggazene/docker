@@ -1,0 +1,11 @@
+le serveur demon il ecoute sur le port 
+2 puissance 16 port 
+les procuss deamon ils ne s arretent pas 
+leurs taache pricipale est la recuperation des requetes client 
+un serveur deamon il n a pas d entree sortie  il utilise le port
+
+commande ps    processus
+tty ??
+
+les fichier c en mode caractere entree sortie 
+les fichier b en mode bloc de caractere 

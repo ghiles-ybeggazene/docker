@@ -2,6 +2,8 @@ la version de docker :
 $ docker version 
 
 
+$lsb_release -a        voir les infos
+
 $ docker ps -a         voir tout les container qui existe 
 
 $ docker images        voir les images en local 

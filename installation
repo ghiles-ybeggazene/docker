@@ -32,3 +32,8 @@ $ sudo add-apt-repository \
    $ apt-cache madison docker-ce
    
    $ sudo docker run hello-world
+
+
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10

@@ -29,3 +29,16 @@ $ docker logs id conteneur    pour voir les logs du conteneur
 $ docker stop id conteneur    pour arreter un conteneur 
 
 $ docker kill id conteneur    pour arreter une application si elle ne fonctionne pas
+
+
+
+========================================================================================================================
+                      docker compose 
+ 
+ $docker-compose ps          affiche tous les containers qui ont été lancés par docker-compose
+ 
+ $docker-compose up -d       va construire vos images si elles ne le sont pas déjà, et va démarrer vos dockers. -d signifie "detach"
+ 
+ $docker stop                 pour stopper  le docker compose 
+ 
+ $docker-compose rm           supprime tous les conteneurs démarrés avec une commande docker-compose.

@@ -1,0 +1,18 @@
+* Docker-compose gère plusieurs conteneurs Docker.
+
+$docker build -t  mon_image:1.0 repertoire_Dockerfile           creer une image a partir d'un Dockerfile
+
+$docker history nom_image:version                               pour voir l'historique de l'image          
+
+====================================================================================================================
+                   creation d'une image a partir d'un Dockerfile
+
+FROM  (a partir de quelle image la premiere couche de base pour construire l'image)
+
+RUN   (une commande qui doit etre executer a l'interieur du conteneur pendant la creation de l'image installation des logiciel .....)
+exemple
+RUN  yum install -y zip
+
+
+
+

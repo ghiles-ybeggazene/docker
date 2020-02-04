@@ -13,6 +13,19 @@ RUN   (une commande qui doit etre executer a l'interieur du conteneur pendant la
 exemple
 RUN  yum install -y zip
 
+LABEL  (permet de rajouter des informations sur l'editeur, les informations de l'application ........)  
+
+ADD  (pour extraire des archives   )
+exemple
+ADD  archive.tar.gz  /
+
+COPY  (permet de copier des fichier a partir de source autre vers le conteneur on l'utise pour copier des fichier configuation)
+exemple 
+COPY fichier.conf  /etc/
+
+CMD  (les commandes executer apres la creation du conteneur) 
+
+ENTRYPOINT   (pour rmplacer le CMD est considirer comme parametre ) 
 
 
 

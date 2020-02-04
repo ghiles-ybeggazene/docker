@@ -16,19 +16,27 @@ $ docker pull  nom_image:version    telecharger une image
 
 $ docker rmi nom_image:version     supprimer une image 
 
-$ docker ps                 liste des container actifs 
+$ docker ps                 liste des containers actifs 
 
 $ docker run ubuntu         lancer le conteneur a partir d une image  
 
 $ docker run -ti ubuntu     t pour cree un terminal  i pour se connecter a ce terminal
 
-$ docker run --name=cont01  --hostname=host01 -it ubuntu pour donner des noms aux conteneurs 
+$ docker run --name=cont01  --hostname=host01 -it      ubuntu pour donner des noms aux conteneurs 
 
-$ docker logs id conteneur    pour voir les logs du conteneur
+$ docker logs id_conteneur    pour voir les logs du conteneur
 
-$ docker stop id conteneur    pour arreter un conteneur 
+$ docker stop id_conteneur    pour arreter un conteneur 
 
-$ docker kill id conteneur    pour arreter une application si elle ne fonctionne pas
+$ docker start id_conteneur    pour demmarer un conteneur
+
+$ docker kill id_conteneur    pour arreter une application si elle ne fonctionne pas
+
+$docker inspect nom_conteneur |more  pour renvoyer les informations du conteneur
+
+$docker diff  nom_image  pour voir les modiffication faites au conteneur par rapports a son image
+
+$docker commit nom_conteneur  monprojet/image_nom:version     pour creer une image a partir d'un conteneur
 
 
 

@@ -47,6 +47,6 @@ $docker commit nom_conteneur  monprojet/image_nom:version     pour creer une ima
  
  $docker-compose up -d       va construire vos images si elles ne le sont pas déjà, et va démarrer vos dockers. -d signifie "detach"
  
- $docker stop                 pour stopper  le docker compose 
+ $docker-compose stop                 pour stopper  le docker compose 
  
  $docker-compose rm           supprime tous les conteneurs démarrés avec une commande docker-compose.

@@ -49,4 +49,6 @@ $docker commit nom_conteneur  monprojet/image_nom:version     pour creer une ima
  
  $docker-compose stop                 pour stopper  le docker compose 
  
+ $docker-compose down                 pour supprimer  les conteneurs du docker compose et les reseaux creers
+ 
  $docker-compose rm           supprime tous les conteneurs démarrés avec une commande docker-compose.

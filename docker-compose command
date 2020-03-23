@@ -3,6 +3,9 @@ docker-compose up -d       vous permettra de démarrer l'ensemble des conteneurs
 
 docker-compose ps           vous permettra de voir le status de l'ensemble de votre stack ;
 
+docker-compose config       pour   Validez et affichez le fichier Composer.
+
+
 docker-compose logs -f --tail 5 vous permettra d'afficher les logs de votre stack ;
 
 docker-compose stop vous permettra d'arrêter l'ensemble des services d'une stack ;

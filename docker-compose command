@@ -5,6 +5,21 @@ docker-compose ps           vous permettra de voir le status de l'ensemble de vo
 
 docker-compose config       pour   Validez et affichez le fichier Composer.
 
+Stopper le/les containers
+docker-compose stop
+
+Démarrer le/les containers
+docker-compose start
+
+Supprimer le/les containers
+docker-compose rm
+
+Builder le/les Containers
+docker-compose up -d
+
+Check des logs
+docker logs -f <nom de container>
+
 
 docker-compose logs -f --tail 5 vous permettra d'afficher les logs de votre stack ;
 
